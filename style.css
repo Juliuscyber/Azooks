@@ -1,0 +1,213 @@
+html {
+    scroll-behavior: smooth;
+}
+.navbar.scrolled {
+    background:#000;
+    transition: background, 0.7s ease;
+}
+#landing-page{
+    background: url(images/cook-366875_1920.jpg) center fixed no-repeat;
+    background-size: cover;
+    height:600px ;
+}
+#landing-page2{
+    background: url(images/asian-1238670_1920.jpg) center fixed no-repeat;
+    background-size: cover;
+    height:600px ;
+}
+#landing-content1{
+    margin: auto;
+    max-width: 600px;
+    text-align: right;
+    margin-right: 50px;
+    padding-top: 200px;
+    margin-bottom: 70px;
+}
+#mainnavbar .nav-link {
+    color:#fff;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: 400;
+}
+.section2{
+    margin-top: 120px;
+}
+.fixed{
+    margin-top: 150px;
+    background:url(images/chafing-dish-910535_1920.jpg) no-repeat center center fixed;
+    height:500px;
+    width:100%;
+    background-size: cover; 
+}
+.fixed .overlay .fixed-content{
+    color: #ffffff;
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+    padding-top: 200px;
+    font-family: 'Courier Prime';
+}
+.overlay {
+    height: 100%;
+    width: 100%;
+    background: #000;
+    opacity: 0.7;
+}
+.comment{
+    margin-top: 100px;
+}
+.first-comment{
+    border: 1px solid #eee;
+    padding:30px;
+    margin-bottom: 20px;
+}
+.second-comment{
+    border: 1px solid #eee;
+    padding: 30px;
+}
+.header{
+    max-width: 900px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.texter{
+    max-width: 300px;
+}
+.img_1{
+    margin-right: 20px;
+}
+.section-3{
+    background: url(images/restaurant-690569_1920.jpg)no-repeat center center fixed;
+    background-size: cover;
+    height: 550px;
+    position: relative;
+    margin-top: 100px;
+}
+.box{
+    padding: 40px;
+    background: #fff;
+    position: absolute;
+    margin-top: 40px;
+    padding-right: 50px;
+    text-align: left;
+    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.08);
+}
+.footer{
+    padding-top: 10px;
+    height: 600px;
+}
+button.btn1{
+    background:#ff4810;
+    color: #fff;
+    width: 49px;
+    border-radius: 0px;
+    height: 40px;
+    border: 0px;
+}
+.footer .container .row .col-lg-4 .links a{
+    color: #eebb;
+}
+.footer .container .row .col-lg-4 .links a:hover{
+    color: white;
+    text-decoration: none;
+}
+.foot-text{
+    max-width: 900px;
+    margin: auto;
+    margin-top: 55px;
+    text-align: center;
+    color: #eebb;
+}
+.footer .container{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.foot-text a:hover{
+    text-decoration: none;
+}
+.about-text{
+    margin-bottom:10px;
+}
+.about-text .btn-1 {
+    font-family:sans-serif;
+    display: inline-block;
+    font-size: 15px;
+    color: #fff;
+    background-color: #000;
+    text-decoration: none;
+    text-transform: capitalize;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    position: relative;
+    z-index: 1;
+    padding: 14px 37.5px;
+}
+.about-text .btn-1:hover{
+    background:#ff4810;
+    color: white;
+}
+.container-1{
+    background: #ffffff;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left:50px;
+    margin-right: 50px;
+    padding: 50px;
+    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.08);
+}
+.lead{
+    font-family: 'Courier New', Courier, monospace;
+}
+section h2{
+    font-family: 'Courier Prime';
+}
+.first h2{
+    color:#ea1c2c;
+    font-weight:100; 
+}
+
+.first p{
+    color:#a0818c;
+    font-weight:100;
+    font-size:1.125rem;
+    line-height:2;
+}
+.content{
+    margin-top:90px; 
+}
+#headingGroup h5{
+    margin: auto;
+    max-width: 500px;
+    color:#a0818c;
+    font-weight:100;
+    font-size:1.125rem;
+    line-height:2;
+}
+@media(max-width:1200px){
+   #headingGroup h1{
+    font-weight:100;
+    font-size:1.5rem; 
+} 
+}
+button.btn-white{
+    background: #ff4810;
+    color: #fff;
+}
+button.btn-white:hover{
+    border: 1px solid #ff4810;
+    background: transparent;
+    color: #ff4810;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+.contact{
+    margin: 200px 0 200px 0;
+}
+.contact-info__icon{
+    color: #a5a5a5;
+    display: block;
+    font-size: 20px;
+    margin-right:10px;
+}
+
